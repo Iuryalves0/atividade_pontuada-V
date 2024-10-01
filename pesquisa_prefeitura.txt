@@ -1,0 +1,6 @@
+numero de familias que responderam a pesquisa: 1"
+            media do salario da população: 110.0
+            media do numero de filhos: 2.0
+            maior salario: 55.0
+            menor salario: 55.0
+        

@@ -56,3 +56,20 @@ while True:
             print("Saindo do programa...")
             time.sleep(3)
             break
+        case _:
+            print("opção invalida")
+
+
+#definindo para salvar dados
+nome_do_arquivo = "pesquisa_prefeitura.txt"
+#abrindo arquivo que sera feita a escrita de dados
+with open(nome_do_arquivo, "w") as arquivo_familia:
+    #percorrendo vetor/lista.
+    for i in range(1):
+        #escrevendo no arquivo uma linha de cada vez.
+        arquivo_familia.write(f"""numero de familias que responderam a pesquisa: {qtd_familias}"
+            media do salario da população: {media_salarial}
+            media do numero de filhos: {media_filhos}
+            maior salario: {maior_salario}
+            menor salario: {menor_salario}
+        """)
